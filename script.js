@@ -1,3 +1,11 @@
+let play = document.getElementById('play');
+let space = document.getElementById('space');
+let show = document.getElementById('show');
+let value = document.getElementById('value');
+let bar = document.getElementById('bar');
+let num = document.getElementById('num');
+let result = document.getElementById('result');
+
 play.addEventListener('click', () =>{ p =   `${Math.round(95*Math.random())}` 
 
             a = parseInt(p)
